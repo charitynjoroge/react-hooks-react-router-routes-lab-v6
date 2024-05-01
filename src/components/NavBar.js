@@ -4,7 +4,9 @@ import "./NavBar.css";
 function NavBar() {
   return (
     <nav className="navbar">
-    
+     <NavLink to="/" exact activeClassName="active">Home</NavLink>
+      <NavLink to="/directors" activeClassName="active">Directors</NavLink>
+      <NavLink to="/actors" activeClassName="active">Actors</NavLink>
     </nav>
     );
 };
